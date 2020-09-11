@@ -1,4 +1,8 @@
 body {background-color: blanchedalmond;
-text-color: blue;}
+    color: blue;
+}
+h1 {
+    color: red;
+}
 
 /* be sure to link this file to your index.html file */
