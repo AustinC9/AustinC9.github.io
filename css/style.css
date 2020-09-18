@@ -1,8 +1,23 @@
-body {background-color: blanchedalmond;
+body {font-family: 'Space Mono', monospace;
+    background-color: blanchedalmond;
     color: blue;
 }
 h1 {
     color: red;
 }
+article {background-image: url("https://www.pikpng.com/pngvi/iihbxbi_dripping-melting-galaxy-space-background-overlay-dripping-galaxy/");}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 /* be sure to link this file to your index.html file */
