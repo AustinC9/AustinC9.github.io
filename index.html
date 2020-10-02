@@ -3,14 +3,21 @@
 <html lang="en">
   <head>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./theme2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/66b26b91f2.js" crossorigin="anonymous"></script>
     <title style="text-decoration-color: white;">No Stack to Full Stack</title>
-    <h1>Austin Carson's Awesome Blog</h1>
+    <h1 text-color= red;>Austin Carson's Awesome Blog</h1>
     
   </head>
-  <nav>
+  <body>
+  <!-- <nav>   
     <ul class="nav navbar-nav">
         <li>
             <a href="projects.html">
@@ -20,14 +27,31 @@
             <a class="nav-link" href="links.html"><button>Links</button></a>
         </li>
     </ul>
-</nav> 
+</nav> -->
+<nav class="navbar sticky-top navbar-light bg-warning">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <ul>
+        <li>
+            <a href='projects.html'>
+                <button class='btn'>Projects</button>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="links.html">
+                <button>Links</button>
+            </a>
+        </li>
+    </ul>
+  </nav>
   
-  <body>
+  
     
     
 <div class="container-fluid">
-    <div class="row">
-        <div class="card col-4">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="card col-4 d-block mx-auto">
             <div class="card-body">
                 <h5 class="card-title">Week One</h5>
                 <p class="card-text">My first week in the Awesome Inc bootcamp is not at all what i was expecting. I
@@ -48,7 +72,11 @@
                     this blog look WAY better!</p>
             </div>
         </div>
-        <div class="card col-4">
+        
+      </div>
+    
+      <div class="carousel-item">
+        <div class="card col-4 d-block mx-auto">
             <div class="card-body">
                 <h5 class="card-title">Week Two</h5>
                 <p class="card-text">Prior to this bootcamp, I had no clue what pseudocoding was until I taught a robot
@@ -64,9 +92,31 @@
                     knowledge within the full stack "dictionary"!</p>
             </div>
         </div>
-        <div class="card col-4">
+    </div>
+        <div class="carousel-item">
+            <div class="card col-4 d-block mx-auto">
+                <div class="card-body">
+                    <h5 class="card-title">Week Three</h5>
+                    <p class="card-text">Prior to this bootcamp, I had no clue what pseudocoding was until I taught a robot
+                        how to make a PB&J. Now I chose a task that was essentially impossible, a self guided rocket
+                        landing, and made it seem relatively plausible. Pseudocoding helped me to break down the complexity
+                        into managable pieces. I can see why pseudocoding is an essential aspect to have in your toolbag.
+    
+                        Right now I am struggling with making my blog look aesthetically pleasing. My end goal is to have a
+                        blog that resembles Reddit. Reddit is one of my favorite websites currently. But I will get there
+                        through perseverance! Other than that I have had a plentiful amount of A-HA moments!
+    
+                        For week two I have learned so much! I'm just excited to keep building my digital literacy and any
+                        knowledge within the full stack "dictionary"!</p>
+                </div>
+            </div>
+
+        
+      </div>
+      <div class="carousel-item">
+        <div class="card col-4 d-block mx-auto">
             <div class="card-body">
-                <h5 class="card-title">Week four</h5>
+                <h5 class="card-title">Week Four</h5>
                 <p class="card-text">Prework has taught me a lot of fundamentals of HTML,CSS, and Javascript. I am still
                     building new knowledge everyday and working through problems as I run into them. I have really
                     enjoyed the whole process, whether it was ripping my hair out at times or cheering because I made it
@@ -81,15 +131,93 @@
                     the classroom and officially meet all my battle buddies!</p>
             </div>
         </div>
+        
+      </div>
+      <div class="carousel-item">
+        <div class="card col-4 d-block mx-auto">
+            <div class="card-body">
+                <h5 class="card-title">Week Five</h5>
+                <p class="card-text">Prior to this bootcamp, I had no clue what pseudocoding was until I taught a robot
+                    how to make a PB&J. Now I chose a task that was essentially impossible, a self guided rocket
+                    landing, and made it seem relatively plausible. Pseudocoding helped me to break down the complexity
+                    into managable pieces. I can see why pseudocoding is an essential aspect to have in your toolbag.
+
+                    Right now I am struggling with making my blog look aesthetically pleasing. My end goal is to have a
+                    blog that resembles Reddit. Reddit is one of my favorite websites currently. But I will get there
+                    through perseverance! Other than that I have had a plentiful amount of A-HA moments!
+
+                    For week two I have learned so much! I'm just excited to keep building my digital literacy and any
+                    knowledge within the full stack "dictionary"!</p>
+            </div>
+        </div>
+       </div>
+        <div class="carousel-item">
+            <div class="card col-4 d-block mx-auto">
+                <div class="card-body">
+                    <h5 class="card-title">Week Six</h5>
+                    <p class="card-text">
+                        Swift Pikachu Tentacruel Kabutops Ground Ariados Flamethrower. Cascade Badge Drifloon Regigigas Wobbuffet 
+                        Lugia Calcium Running Shoes. Dark Cryogonal Escape Rope Snover Cacturne Glitch City Munna. Thundershock Wigglytuff 
+                        Quagsire Razor Leaf Horsea ut aliquip Marill. Wartortle what kind of Pokemon are you Tangela Tangrowth Crawdaunt Porygon2 Electrike.
+                        
+                        Manny afterbang stomp scream chain suck. Gaper 180 face plant huck cruiser hero bowl afterbang face shots newschooler huckfest rig gondy. 
+                        Yard sale dirt backside, pipe rail laps piste Whistler grip tape liftie travel DH steed. Yard sale smear travel 180, ride around back country Bike. 
+                        Free ride backside shuttle, frozen chicken heads gapers wheelie butter hammerhead. Bike pipe poaching twin tip beater snake bite daffy trail swag smear yard sale.</p>
+                </div>
+            </div>
+        </div>
+            <div class="carousel-item">
+                <div class="card col-4 d-block mx-auto">
+                    <div class="card-body">
+                        <h5 class="card-title">Week Seven</h5>
+                        <p class="card-text">
+                            Bacon ipsum dolor amet t-bone meatloaf bacon ball tip prosciutto bresaola kielbasa 
+                            drumstick chuck. Jowl tongue short loin cow, pork belly tail tenderloin sirloin buffalo meatball. 
+                            Flank turducken burgdoggen pork chop bresaola drumstick. Rump meatball doner bacon. Pork swine ribeye, hamburger fatback drumstick tongue 
+                            pork chop cow turkey shankle kielbasa short loin leberkas frankfurter. Sausage beef turkey, brisket ham hock flank cupim jowl pig chuck landjaeger 
+                            meatloaf sirloin salami buffalo. Drumstick filet mignon kielbasa rump, turducken shoulder fatback jerky meatball pig hamburger ham hock.
+
+                            Corned beef ribeye filet mignon, bacon pork loin rump pork chop beef hamburger drumstick strip steak salami. Filet mignon t-bone short 
+                            ribs, picanha ribeye spare ribs jerky pork loin shankle corned beef ham. Venison chuck strip steak capicola cupim prosciutto jowl. 
+                            Shankle buffalo chuck shank corned beef chicken sausage.</p>
+                    </div>
+                </div>
+            </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
- <footer> 
- <p class="text-center"> Austin Carson</p>
+<div class="container-fluid d-block mx-auto">
+    <i class="fab fa-github d-block mx-auto fa-4x"></i>
+    <button
+</div>
+
+ <footer>
+     <p class="text-center"> Austin Carson</p>
  </footer>
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>
+        body {
+          background-image: url('blogBackground.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+          -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+        }
+        </style>
   </body>
 </html>

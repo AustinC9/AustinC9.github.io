@@ -1,11 +1,12 @@
-body {font-family: 'Space Mono', monospace;
+.card-text {font-family: 'Space Mono', monospace;
     background-color: blanchedalmond;
     color: blue;
 }
-h1 {
+.card-title {
     color: red;
 }
-article {background-image: url("https://www.pikpng.com/pngvi/iihbxbi_dripping-melting-galaxy-space-background-overlay-dripping-galaxy/");}
+.card-body {background-color: blanchedalmond;}
+/*article {background-image: url("https://www.pikpng.com/pngvi/iihbxbi_dripping-melting-galaxy-space-background-overlay-dripping-galaxy/");}*/
 
 .button {
     background-color: #4CAF50;
@@ -19,5 +20,11 @@ article {background-image: url("https://www.pikpng.com/pngvi/iihbxbi_dripping-me
     margin: 4px 2px;
     cursor: pointer;
   }
-
+  /*body {
+    background: url('blogBackground.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
 /* be sure to link this file to your index.html file */
